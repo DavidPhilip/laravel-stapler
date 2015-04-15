@@ -4,6 +4,7 @@ use Config;
 use Illuminate\Support\ServiceProvider;
 use Codesleeve\LaravelStapler\Services\ImageRefreshService;
 use Codesleeve\Stapler\Stapler;
+use Codesleeve\LaravelStapler\Commands\FastenCommand;
 
 class LaravelStaplerServiceProvider extends ServiceProvider 
 {
